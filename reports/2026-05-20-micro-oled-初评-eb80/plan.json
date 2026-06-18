@@ -1,0 +1,166 @@
+{
+  "title": "Micro-OLED 项目初评 — 奥视新一代显示半导体工艺",
+  "objective": "对奥视 micro-OLED 项目进行技术面、产业链面、市场面的初评，并分析此前众多 micro-OLED 项目未能大规模产业化的根因，输出首次交流的提问质询清单。",
+  "scope": {
+    "timeframe": "2020-2026（重点近期）",
+    "geography": "全球，侧重中国",
+    "audience": "投资机构 / 投资决策团队",
+    "purpose": "技术尽调初评（非完整尽调），判断项目投资价值与风险",
+    "key_assumptions": [
+      "项目方主张的技术路线为光刻RGB Micro OLED（第二代硅基OLED）方向",
+      "JG标签暗示有军工背景或目标市场",
+      "当前行业正处于从消费电子显示向近眼显示转型的窗口期"
+    ]
+  },
+  "report_shape": {
+    "structure": [
+      "1 项目基本判断概述（含评级）",
+      "2 核心技术面分析",
+      "3 产业链与产业化分析",
+      "4 市场面分析",
+      "5 历史教训：此前 micro-OLED 项目为何未能做起来",
+      "6 首次交流提问质询清单",
+      "7 不确定性声明与待进一步验证事项"
+    ],
+    "required_elements": [
+      "技术路线与竞争对手对比表",
+      "产业成熟度评估",
+      "市场规模与目标场景矩阵",
+      "关键风险清单（分级）",
+      "提问清单（按优先级排序）"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "tech_route",
+      "name": "核心技术路线分析",
+      "status": "done",
+      "depends_on": [],
+      "key_questions": [
+        "micro-OLED/Si-OLED 基本原理和技术路线分类有哪些？（WOLED/RGB OLED/G-Si OLED等）",
+        "当前行业主流玩家（Sony、eMagin、Kopin、京东方/视涯、三星、LG）分别采用什么技术路线？",
+        "micro-OLED 的核心技术瓶颈是什么？（亮度、寿命、像素密度、彩色化方案、驱动IC）",
+        "奥视自称的\"新一代显示半导体工艺\"是否有公开可查的技术资料或专利？",
+        "从公开专利和论文看，该路线是否具备理论上的竞争力？"
+      ],
+      "method": "multi-source_web_research",
+      "search_strategy": [
+        "micro-OLED 技术路线对比",
+        "silicon OLED pixel architecture WOLED vs RGB",
+        "硅基OLED 技术瓶颈 亮度 寿命",
+        "micro-OLED brightness lifetime color technique",
+        "OLED-on-silicon patent landscape 2024 2025",
+        "搜索 奥视/六合简纯图 显示+半导体"
+      ],
+      "expected_output": "技术路线对比表 + 瓶颈分析 + 该项目路线可信度评估",
+      "completion_criteria": "明确该项目所处的技术代际位置和核心壁垒"
+    },
+    {
+      "id": "industry_chain",
+      "name": "产业链与产业化分析",
+      "status": "done",
+      "depends_on": ["tech_route"],
+      "key_questions": [
+        "micro-OLED 产业链全景图：上游材料/设备/硅基板、中游制造、下游应用",
+        "关键设备（蒸镀、封装、测试）的国产化程度如何？",
+        "CMOS背板与OLED发光层的良率瓶颈在哪？",
+        "8英寸vs12英寸硅基OLED产线的投资门槛和产能瓶颈？",
+        "中国micro-OLED产能布局现状（视涯、京东方、湖畔光电、芯视佳等）",
+        "过往项目失败/停滞的案例分析：是什么卡住了产业化？"
+      ],
+      "method": "multi-source_web_research",
+      "search_strategy": [
+        "micro-OLED 硅基OLED 产业链 国产化",
+        "micro-OLED yield rate production challenge",
+        "视涯 京东方 硅基OLED 量产 进展",
+        "micro-OLED CMOS backplane process node",
+        "eMagin production challenges dPd technology",
+        "Sony OLED microdisplay commercial failure",
+        "中国 硅基OLED 投资 产能 2025 2026"
+      ],
+      "expected_output": "产业链全景图 + 良率/投资门槛分析 + 过往项目失败原因汇总",
+      "completion_criteria": "能解释\"为什么这么多项目都没做起来\"这一核心问题"
+    },
+    {
+      "id": "market",
+      "name": "市场与应用场景分析",
+      "status": "done",
+      "depends_on": ["tech_route"],
+      "key_questions": [
+        "micro-OLED 当前主要目标市场：XR眼镜、军工/国防HUD、微投影等",
+        "各细分市场的真实规模和增速预测（引用权威数据）",
+        "Micro-LED 对 micro-OLED 的替代威胁有多大？",
+        "Apple Vision Pro 选择了 micro-OLED，但销量不达预期，对行业意味着什么？",
+        "军工/国防特种显示市场的特点（高利润、小批量、长周期）",
+        "\"JG\"标签是否意味着该项目实际目标是特种/军工市场而非消费市场？"
+      ],
+      "method": "multi-source_web_research",
+      "search_strategy": [
+        "micro-OLED market size forecast 2025 2030 硅基OLED 市场规模",
+        "Apple Vision Pro micro-OLED supply chain Sony",
+        "XR headset display market share 2025 2026",
+        "micro-LED vs micro-OLED comparison near-eye display",
+        "中国市场 XR 出货量 2025 2026",
+        "军工 微显示器 HUD 微显示 硅基OLED"
+      ],
+      "expected_output": "各细分市场规模与增速 + 竞争替代分析 + 市场切入路径判断",
+      "completion_criteria": "能判断该项目最可能的目标市场和市场规模合理性"
+    },
+    {
+      "id": "competitors",
+      "name": "竞争对手与产业格局",
+      "status": "done",
+      "depends_on": ["tech_route", "industry_chain", "market"],
+      "key_questions": [
+        "全球micro-OLED竞争格局：Sony、三星、京东方/视涯、eMagin（已被收购）、Kopin、MicroOLED（法国）、Himax等",
+        "各玩家量产进度、技术参数、客户群体对比",
+        "视涯作为中国最大硅基OLED厂商的真实技术水平如何？",
+        "奥视在这个格局中的差异化位置是什么？",
+        "初创项目正面竞争是否有可行性？"
+      ],
+      "method": "multi-source_web_research",
+      "search_strategy": [
+        "micro-OLED manufacturer comparison Sony Samsung SeeYA",
+        "视涯硅基OLED 技术参数 出货量 客户",
+        "BOE micro-OLED development",
+        "eMagin dPd OLED technology acquisition Samsung",
+        "micro-OLED startup landscape China 2025 2026"
+      ],
+      "expected_output": "竞争格局矩阵 + 奥视相对位置判断",
+      "completion_criteria": "能判断该项目的竞争优劣势和差异化可行性"
+    },
+    {
+      "id": "project_team",
+      "name": "项目方背景与团队评估",
+      "status": "done",
+      "depends_on": [],
+      "key_questions": [
+        "奥视是什么公司/团队？是否有工商注册记录？",
+        "\"六合简纯图\"是什么组织？",
+        "核心团队成员是否有公开的micro-OLED领域履历？",
+        "是否有可查的专利或论文产出？",
+        "是否已有量产或客户验证？",
+        "\"JG\"是否代表军工渠道资源？"
+      ],
+      "method": "focused_web_search+document_review",
+      "search_strategy": [
+        "奥视 显示 半导体 公司",
+        "六合简纯图 micro-OLED",
+        "奥视OLED 创业团队",
+        "AOShi display semiconductor China"
+      ],
+      "expected_output": "项目背景评估 + 团队可信度判断",
+      "completion_criteria": "能对项目背景做出初步评级"
+    }
+  ],
+  "execution_order": ["tech_route", "industry_chain", "market", "competitors", "project_team"],
+  "completion_criteria": [
+    "所有维度 key_questions 被至少部分回答",
+    "能给出技术、产业链、市场三方面的风险评估",
+    "能给出优先级排序的首次交流提问清单",
+    "明确标注不确定性高和需进一步验证的事项"
+  ],
+  "change_notes": [
+    "2026-05-20: 全部5个维度完成，进入综合与终稿阶段"
+  ]
+}

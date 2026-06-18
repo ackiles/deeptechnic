@@ -1,0 +1,116 @@
+{
+  "title": "芜湖广土科技低空巡航无人机项目技术初评",
+  "created_at": "2026-05-26T09:55:00+08:00",
+  "project": "广土科技 — 低空巡航无人机及相关定制产品",
+  "phase": "synthesis",
+  "report_shape": {
+    "type": "technical_due_diligence_initial_report",
+    "sections": [
+      "项目概述",
+      "核心技术分析",
+      "RemoteID模块技术评估",
+      "固定翼巡航无人机平台评估",
+      "定制产品线评估（NPU芯片、MicroLED、AI硬件、IoT模块）",
+      "产业与政策背景",
+      "市场竞争格局",
+      "团队评估",
+      "风险识别",
+      "综合研判与结论",
+      "后续尽调建议"
+    ],
+    "requires_tables": true,
+    "requires_grading": true
+  },
+  "dimensions": [
+    {
+      "id": "dim-remoteid",
+      "title": "RemoteID技术与法规环境",
+      "key_questions": [
+        "中国民航局RemoteID（远程识别）的最新标准要求是什么？",
+        "RemoteID模块的技术方案有哪些（蓝牙/WiFi/4G/5G）？",
+        "国内外有哪些公司已经量产RemoteID模块？",
+        "广土科技RemoteID方案的技术竞争力如何？"
+      ],
+      "method": "web_search + technology_news",
+      "search_strategy": "搜索中国民航局无人机实名登记/远程识别规定，RemoteID模块技术方案，竞品分析",
+      "expected_output": "RemoteID法规现状、技术方案对比、竞品清单",
+      "status": "done",
+      "depends_on": []
+    },
+    {
+      "id": "dim-policy",
+      "title": "低空经济产业政策与发展现状",
+      "key_questions": [
+        "中国低空经济2025-2026年最新政策导向如何？",
+        "芜湖航空产业园的产业扶持政策有哪些？",
+        "低空经济领域的投资热度如何？",
+        "无人机在城乡应用场景的潜力分析"
+      ],
+      "method": "web_search + technology_news",
+      "search_strategy": "搜索低空经济、芜湖航空产业园、无人机产业政策",
+      "expected_output": "政策环境分析、产业生态概况",
+      "status": "done",
+      "depends_on": []
+    },
+    {
+      "id": "dim-drone-tech",
+      "title": "固定翼巡航无人机技术评估",
+      "key_questions": [
+        "当前固定翼巡航无人机的技术水平（航程、续航、载荷）？",
+        "3D打印在无人机领域的应用成熟度如何？",
+        "4+1固定翼构型的优缺点是什么？",
+        "120km航程/2h续航在同级别产品中处于什么水平？",
+        "搭载NPU+4G摄像头的技术方案常见吗？"
+      ],
+      "method": "web_search + scholarclaw",
+      "search_strategy": "搜索固定翼无人机、VTOL复合翼、3D打印无人机、长航时无人机",
+      "expected_output": "技术方案评估、竞品对比、差距分析",
+      "status": "done",
+      "depends_on": []
+    },
+    {
+      "id": "dim-custom-products",
+      "title": "定制产品线技术评估（NPU芯片、MicroLED、AI硬件）",
+      "key_questions": [
+        "与第三方联合研发NPU芯片的常见合作模式是什么？",
+        "MicroLED光源芯片在车灯领域的应用前景如何？",
+        "AI语音玩具（大模型对话）的市场竞争格局？",
+        "广土科技在这些定制产品中的技术贡献评估"
+      ],
+      "method": "web_search + technology_news",
+      "search_strategy": "搜索NPU芯片合作研发、MicroLED车灯、AI语音玩具市场",
+      "expected_output": "定制产品线技术分析",
+      "status": "done",
+      "depends_on": []
+    },
+    {
+      "id": "dim-team-competition",
+      "title": "团队背景与竞争格局",
+      "key_questions": [
+        "创始人庄金峰的技术背景和履历如何？（通过公开信息核验）",
+        "芜湖广土科技的工商注册信息？",
+        "低空巡航无人机赛道的直接竞争对手有哪些？",
+        "一人公司模式的可行性和风险？"
+      ],
+      "method": "web_search",
+      "search_strategy": "搜索庄金峰 芜湖广土 工商信息、无人机创业公司竞品",
+      "expected_output": "团队评估、竞争格局分析",
+      "status": "done",
+      "depends_on": []
+    }
+  ],
+  "execution_order": [
+    "dim-remoteid",
+    "dim-policy",
+    "dim-drone-tech",
+    "dim-custom-products",
+    "dim-team-competition"
+  ],
+  "completion_criteria": [
+    "每个dimension的key_questions得到回答或明确标注为信息缺口",
+    "形成对项目技术整体的优/良/中/差评级判断",
+    "识别至少5个风险点",
+    "给出后续尽调建议"
+  ],
+  "change_notes": []
+}

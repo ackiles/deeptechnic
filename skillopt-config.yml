@@ -1,0 +1,16 @@
+# Deeptechnic configuration (optional, overrides defaults)
+# API keys should be set via environment variables or .env file.
+# 
+# model:
+#   backend: azure_openai
+#   optimizer: deepseek-chat
+#   optimizer_backend: openai_chat
+#
+# env:
+#   name: deep_tech_dd
+#   split_mode: split_dir
+#   split_dir: skillopt-integration/data/deep_tech_dd
+#
+# train:
+#   num_epochs: 2
+#   batch_size: 1

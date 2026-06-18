@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hdmea-v2-after-rewrite",
+    "project_name": "HDMEA高密度微电极阵列",
+    "domain": "生物芯片/神经科学",
+    "quality_score": 0.75,
+    "quality_dimensions": {
+      "claim_validation": 0.65,
+      "engineering_migration_gap": 0.6,
+      "per_person_assessment": 0.65,
+      "independent_competitor": 0.65,
+      "supplier_level_analysis": 0.55,
+      "team_gap_precision": 0.65,
+      "quantitative_score": 0.65,
+      "priority_levels": 0.6,
+      "overview_page": 0.75,
+      "independent_analysis": 0.65
+    },
+    "user_feedback": "重写后结构改善但仍有提升空间",
+    "feedback_signal": "修改后认可"
+  }
+]

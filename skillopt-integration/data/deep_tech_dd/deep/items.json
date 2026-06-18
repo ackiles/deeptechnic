@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ngot-yaoyong-v2-deeptech",
+    "project_name": "NGOT机器人无线关节技术深度研判",
+    "domain": "无线通信协议栈/射频/工业自动控制",
+    "quality_score": 0.82,
+    "quality_dimensions": {
+      "claim_validation": 0.85,
+      "engineering_migration_gap": 0.85,
+      "per_person_assessment": 0.8,
+      "independent_competitor": 0.8,
+      "supplier_level_analysis": 0.6,
+      "team_gap_precision": 0.85,
+      "quantitative_score": 0.8,
+      "priority_levels": 0.9,
+      "overview_page": 0.85,
+      "independent_analysis": 0.85
+    },
+    "user_feedback": "（深研报告中技术可靠性分析获认可，用户将在明天给出详细评价）",
+    "feedback_signal": "正面初步（待补充）",
+    "signal_chain": [
+      {
+        "msg": "（协议栈逐层分析获认可）",
+        "dim": "claim_validation",
+        "direction": "positive"
+      },
+      {
+        "msg": "（CDMA vs OFDMA物理层深挖有价值）",
+        "dim": "independent_analysis",
+        "direction": "positive"
+      },
+      {
+        "msg": "（FPGA→ASIC工程路径量化为干货）",
+        "dim": "engineering_migration_gap",
+        "direction": "positive"
+      },
+      {
+        "msg": "（待补充明天用户详细反馈）",
+        "dim": "composite",
+        "direction": "pending"
+      }
+    ],
+    "bp_key_claims": [
+      "协议层剔除/旁路实现扁平化",
+      "终端自主调度确定性保障",
+      "CDMA SF64军工级抗干扰",
+      "99.99999%可靠性",
+      "10ns精度空口授时",
+      "24个月全栈产品化"
+    ],
+    "key_insights": [
+      "（协议栈）RLC旁路丢失ARQ重传、PDCP旁路无加密——旁路不免费",
+      "（物理层）CDMA的近远效应在机器人多关节场景是根本性未解决问题",
+      "（调度）分布式自主调度与确定性低时延存在根本矛盾",
+      "（竞品）星闪使用现代OFDMA+Polar码+已量产芯片，NGOT差距2~3年",
+      "（工程）70mm关节腔体内热/天线/EMC三大工程挑战未回答",
+      "（风险矩阵）9项技术风险：3项极高、4项高"
+    ]
+  }
+]

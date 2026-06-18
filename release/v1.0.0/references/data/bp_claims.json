@@ -1,0 +1,17 @@
+[
+  {"claim": "我们的指标达到了国际领先水平", "rebuttal": "请提供第三方测试报告和量化对比数据", "dim": "claim_validation", "level": "P0"},
+  {"claim": "这个参数还在优化中", "rebuttal": "没有初步数据，无法评估基础可行性", "dim": "claim_validation", "level": "P0"},
+  {"claim": "我们的技术路径是独创的，没有竞品", "rebuttal": "没有竞品通常意味着没有市场或不可行", "dim": "independent_competitor", "level": "P0"},
+  {"claim": "我们的算法比所有竞品都好", "rebuttal": "请给出具体竞品参数和同条件测试数据", "dim": "claim_validation", "level": "P1"},
+  {"claim": "成本可以降到现在的1/10", "rebuttal": "请提供BOM成本拆解或供应商报价", "dim": "supplier_level_analysis", "level": "P1"},
+  {"claim": "市场空间有XX亿", "rebuttal": "请给出计算方法和数据来源", "dim": "independent_analysis", "level": "P2"},
+  {"claim": "我们的核心成员来自XX大厂", "rebuttal": "请具体列出：谁、什么部门、什么项目", "dim": "per_person_assessment", "level": "P0"},
+  {"claim": "我们的技术顾问是全明星阵容", "rebuttal": "顾问每周几小时？核心开发谁做？", "dim": "per_person_assessment", "level": "P1"},
+  {"claim": "已经有多个客户在洽谈", "rebuttal": "请给出客户名称和合作阶段", "dim": "team_gap_precision", "level": "P1"},
+  {"claim": "我们是市场上唯一的XX", "rebuttal": "用公开渠道验证，通常能找到3-5家", "dim": "independent_competitor", "level": "P0"},
+  {"claim": "我们的竞品只有国外巨头", "rebuttal": "国产替代已完成，国内竞品更可怕", "dim": "independent_competitor", "level": "P0"},
+  {"claim": "我们的技术是跨时代的", "rebuttal": "颠覆哪个路线？替代成本？客户迁移理由？", "dim": "claim_validation", "level": "P1"},
+  {"claim": "我们对标的国际产品卖XX万", "rebuttal": "对标价≠实际成交价，新品初期成本高于对标", "dim": "supplier_level_analysis", "level": "P1"},
+  {"claim": "签约了NDA，不方便展示数据", "rebuttal": "对投资人最大限度保密=没有或不想被验证", "dim": "claim_validation", "level": "P0"},
+  {"claim": "核心团队共事多年", "rebuttal": "有没有一起从0到1做成产品的经历？", "dim": "per_person_assessment", "level": "P1"}
+]

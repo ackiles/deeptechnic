@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.key
+
+# Build outputs
+*.docx
+outputs/
+dist/
+*.egg-info/
+
+# Project specific
+skillopt-integration/outputs/
+skillopt-integration/configs/deep_tech_dd/default.yaml

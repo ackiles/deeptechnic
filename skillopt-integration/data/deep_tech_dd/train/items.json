@@ -1,0 +1,332 @@
+[
+  {
+    "id": "pulse-ir-v1-good",
+    "project_name": "脉冲红外连续时间视觉智能",
+    "domain": "红外成像/气体检测",
+    "quality_score": 0.9,
+    "quality_dimensions": {
+      "claim_validation": 0.95,
+      "engineering_migration_gap": 0.9,
+      "per_person_assessment": 1.0,
+      "independent_competitor": 0.85,
+      "supplier_level_analysis": 0.9,
+      "team_gap_precision": 0.95,
+      "quantitative_score": 1.0,
+      "priority_levels": 1.0,
+      "overview_page": 0.8,
+      "independent_analysis": 0.9
+    },
+    "user_feedback": "技术分析透彻，能在第一次交流前做到这么到位",
+    "feedback_signal": "正面明确",
+    "signal_chain": [
+      {
+        "msg": "（用户评价）这份技术分析很透彻",
+        "dim": "composite",
+        "direction": "positive"
+      },
+      {
+        "msg": "（用户评价）能在第一次交流前做到这么到位",
+        "dim": "composite",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "id": "pulse-ir-report-structure",
+    "project_name": "脉冲红外连续时间视觉智能",
+    "domain": "红外成像/气体检测",
+    "quality_score": 0.95,
+    "quality_dimensions": {
+      "claim_validation": 0.95,
+      "engineering_migration_gap": 0.95,
+      "per_person_assessment": 1.0,
+      "independent_competitor": 0.85,
+      "supplier_level_analysis": 0.9,
+      "team_gap_precision": 1.0,
+      "quantitative_score": 1.0,
+      "priority_levels": 1.0,
+      "overview_page": 0.9,
+      "independent_analysis": 0.9
+    },
+    "user_feedback": "每个Claim有独立物理验证、逐人团队评估、具体供应链分析",
+    "feedback_signal": "正向（参考标准）"
+  },
+  {
+    "id": "micro-oled-v1",
+    "project_name": "奥视Micro-OLED",
+    "domain": "显示半导体",
+    "quality_score": 0.65,
+    "quality_dimensions": {
+      "claim_validation": 0.3,
+      "engineering_migration_gap": 0.6,
+      "per_person_assessment": 0.2,
+      "independent_competitor": 0.7,
+      "supplier_level_analysis": 0.55,
+      "team_gap_precision": 0.3,
+      "quantitative_score": 0.6,
+      "priority_levels": 0.6,
+      "overview_page": 0.9,
+      "independent_analysis": 0.7
+    },
+    "user_feedback": "框架结构可以，但团队评估和Claim验证深度不足，核心成员信息完全不可查",
+    "feedback_signal": "对比评价（与脉冲红外比有差距）",
+    "signal_chain": [
+      {
+        "msg": "（分析框架可以）",
+        "dim": "overview_page",
+        "direction": "positive"
+      },
+      {
+        "msg": "（但团队信息完全不可查）",
+        "dim": "per_person_assessment",
+        "direction": "negative"
+      },
+      {
+        "msg": "（Claim验证深度不足）",
+        "dim": "claim_validation",
+        "direction": "negative"
+      }
+    ]
+  },
+  {
+    "id": "low-altitude-drone-v1",
+    "project_name": "低空巡航无人机-广土科技",
+    "domain": "无人机/低空经济",
+    "quality_score": 0.55,
+    "quality_dimensions": {
+      "claim_validation": 0.25,
+      "engineering_migration_gap": 0.35,
+      "per_person_assessment": 0.55,
+      "independent_competitor": 0.45,
+      "supplier_level_analysis": 0.25,
+      "team_gap_precision": 0.5,
+      "quantitative_score": 0.55,
+      "priority_levels": 0.45,
+      "overview_page": 0.55,
+      "independent_analysis": 0.55
+    },
+    "user_feedback": "技术分析偏表面，缺少定量验证，一人公司多条产品线资源分散",
+    "feedback_signal": "负面明确",
+    "signal_chain": [
+      {
+        "msg": "（分析偏表面）",
+        "dim": "claim_validation",
+        "direction": "negative"
+      },
+      {
+        "msg": "（缺少定量验证）",
+        "dim": "quantitative_score",
+        "direction": "negative"
+      },
+      {
+        "msg": "（一人公司）",
+        "dim": "team_gap_precision",
+        "direction": "negative"
+      }
+    ]
+  },
+  {
+    "id": "puredata-ai-v1",
+    "project_name": "普瑞达AI科研助理",
+    "domain": "AI/科研工具",
+    "quality_score": 0.6,
+    "quality_dimensions": {
+      "claim_validation": 0.35,
+      "engineering_migration_gap": 0.3,
+      "per_person_assessment": 0.45,
+      "independent_competitor": 0.5,
+      "supplier_level_analysis": 0.25,
+      "team_gap_precision": 0.4,
+      "quantitative_score": 0.5,
+      "priority_levels": 0.4,
+      "overview_page": 0.6,
+      "independent_analysis": 0.5
+    },
+    "user_feedback": "更像信息汇总而非独立分析，技术深度和工程迁移分析不足",
+    "feedback_signal": "对比评价",
+    "signal_chain": [
+      {
+        "msg": "（信息汇总而非分析）",
+        "dim": "independent_analysis",
+        "direction": "negative"
+      },
+      {
+        "msg": "（技术深度不足）",
+        "dim": "claim_validation",
+        "direction": "negative"
+      }
+    ]
+  },
+  {
+    "id": "hdmea-v1",
+    "project_name": "HDMEA高密度微电极阵列",
+    "domain": "生物芯片/神经科学",
+    "quality_score": 0.65,
+    "quality_dimensions": {
+      "claim_validation": 0.5,
+      "engineering_migration_gap": 0.45,
+      "per_person_assessment": 0.55,
+      "independent_competitor": 0.55,
+      "supplier_level_analysis": 0.4,
+      "team_gap_precision": 0.55,
+      "quantitative_score": 0.55,
+      "priority_levels": 0.5,
+      "overview_page": 0.65,
+      "independent_analysis": 0.55
+    },
+    "user_feedback": "经过多轮迭代（v3→v4→v5），用户要求按新架构重写",
+    "feedback_signal": "修改要求（隐式不满意初版）"
+  },
+  {
+    "id": "ngot-yaoyong-v1",
+    "project_name": "机器人无线关节运动控制（NGOT）",
+    "domain": "无线通信/机器人/工业自动化",
+    "quality_score": 0.75,
+    "quality_dimensions": {
+      "claim_validation": 0.75,
+      "engineering_migration_gap": 0.7,
+      "per_person_assessment": 0.8,
+      "independent_competitor": 0.75,
+      "supplier_level_analysis": 0.55,
+      "team_gap_precision": 0.8,
+      "quantitative_score": 0.7,
+      "priority_levels": 0.7,
+      "overview_page": 0.85,
+      "independent_analysis": 0.75
+    },
+    "user_feedback": "商业路线和技术可靠性判断很中肯、有价值（初稿评价），明天再给更深入的评价",
+    "feedback_signal": "正面初步",
+    "signal_chain": [
+      {
+        "msg": "（商业路线判断很中肯）",
+        "dim": "overview_page",
+        "direction": "positive"
+      },
+      {
+        "msg": "（技术可靠性判断很中肯）",
+        "dim": "claim_validation",
+        "direction": "positive"
+      },
+      {
+        "msg": "（有价值的）",
+        "dim": "composite",
+        "direction": "positive"
+      }
+    ],
+    "bp_key_claims": [
+      "NGOT比5G时延提升100倍、可靠性提升10倍、确定性提升1000倍",
+      "CDMA SF64扩频实现军工级抗干扰",
+      "终端自主调度实现<1ms端到端时延",
+      "99.99999%可靠性",
+      "24个月完成从FPGA到量产ASIC全链产品化",
+      "10+人团队完成通信芯片到关节模组全栈开发"
+    ],
+    "key_insights": [
+      "（协议栈分析）RLC旁路丢失ARQ重传是本质性可靠性损失，PDCP旁路无加密不安全",
+      "（物理层）CDMA而非OFDMA的选择是现代通信工程中的反常决策，近远效应在机器人场景致命",
+      "（产品化）从FPGA到ASIC需18~24个月、2000~3500万，团队供应链整合能力是关键",
+      "（竞品）华为星闪已量产芯片，NGOT面临生态代差",
+      "（团队）RF前端/伺服驱动/精密机械三大块均需外购/合作"
+    ]
+  },
+  {
+    "id": "ngot-yaoyong-v2-deeptech",
+    "project_name": "NGOT机器人无线关节技术深度研判",
+    "domain": "无线通信协议栈/射频/工业自动控制",
+    "quality_score": 0.82,
+    "quality_dimensions": {
+      "claim_validation": 0.85,
+      "engineering_migration_gap": 0.85,
+      "per_person_assessment": 0.8,
+      "independent_competitor": 0.8,
+      "supplier_level_analysis": 0.6,
+      "team_gap_precision": 0.85,
+      "quantitative_score": 0.8,
+      "priority_levels": 0.9,
+      "overview_page": 0.85,
+      "independent_analysis": 0.85
+    },
+    "user_feedback": "（深研报告中技术可靠性分析获认可，用户将在明天给出详细评价）",
+    "feedback_signal": "正面初步（待补充）",
+    "signal_chain": [
+      {
+        "msg": "（协议栈逐层分析获认可）",
+        "dim": "claim_validation",
+        "direction": "positive"
+      },
+      {
+        "msg": "（CDMA vs OFDMA物理层深挖有价值）",
+        "dim": "independent_analysis",
+        "direction": "positive"
+      },
+      {
+        "msg": "（FPGA→ASIC工程路径量化为干货）",
+        "dim": "engineering_migration_gap",
+        "direction": "positive"
+      },
+      {
+        "msg": "（待补充明天用户详细反馈）",
+        "dim": "composite",
+        "direction": "pending"
+      }
+    ],
+    "bp_key_claims": [
+      "协议层剔除/旁路实现扁平化",
+      "终端自主调度确定性保障",
+      "CDMA SF64军工级抗干扰",
+      "99.99999%可靠性",
+      "10ns精度空口授时",
+      "24个月全栈产品化"
+    ],
+    "key_insights": [
+      "（协议栈）RLC旁路丢失ARQ重传、PDCP旁路无加密——旁路不免费",
+      "（物理层）CDMA的近远效应在机器人多关节场景是根本性未解决问题",
+      "（调度）分布式自主调度与确定性低时延存在根本矛盾",
+      "（竞品）星闪使用现代OFDMA+Polar码+已量产芯片，NGOT差距2~3年",
+      "（工程）70mm关节腔体内热/天线/EMC三大工程挑战未回答",
+      "（风险矩阵）9项技术风险：3项极高、4项高"
+    ]
+  },
+  {
+    "id": "yaoyong-ngot-v1-deep",
+    "project_name": "姚永-NGOT无线关节运动控制",
+    "domain": "机器人/无线通信/5G",
+    "quality_score": 0.65,
+    "quality_dimensions": {
+      "claim_validation": 0.85,
+      "engineering_migration_gap": 0.8,
+      "per_person_assessment": 0.4,
+      "independent_competitor": 0.6,
+      "supplier_level_analysis": 0.3,
+      "team_gap_precision": 0.45,
+      "quantitative_score": 0.5,
+      "priority_levels": 0.5,
+      "overview_page": 0.7,
+      "independent_analysis": 0.85
+    },
+    "user_feedback": "（历史报告，直接从DOCX恢复）",
+    "feedback_signal": "无信号",
+    "notes": "NGOT深度技术分析报告，协议栈分析扎实，但团队评估和供应链分析不足"
+  },
+  {
+    "id": "yaoyong-robot-joint-v1-initial",
+    "project_name": "姚永-机器人无线关节-初评",
+    "domain": "机器人/无线通信",
+    "quality_score": 0.55,
+    "quality_dimensions": {
+      "claim_validation": 0.6,
+      "engineering_migration_gap": 0.55,
+      "per_person_assessment": 0.45,
+      "independent_competitor": 0.5,
+      "supplier_level_analysis": 0.25,
+      "team_gap_precision": 0.4,
+      "quantitative_score": 0.45,
+      "priority_levels": 0.4,
+      "overview_page": 0.65,
+      "independent_analysis": 0.6
+    },
+    "user_feedback": "（初稿内部讨论版）",
+    "feedback_signal": "无信号",
+    "notes": "初评报告，结构完整但深度不及NGOT深度分析版"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "uniskill-ai-v1",
+    "project_name": "UniSkill AI",
+    "domain": "AI平台",
+    "quality_score": 0.5,
+    "quality_dimensions": {
+      "claim_validation": 0.3,
+      "engineering_migration_gap": 0.25,
+      "per_person_assessment": 0.35,
+      "independent_competitor": 0.25,
+      "supplier_level_analysis": 0.2,
+      "team_gap_precision": 0.3,
+      "quantitative_score": 0.35,
+      "priority_levels": 0.3,
+      "overview_page": 0.4,
+      "independent_analysis": 0.35
+    },
+    "user_feedback": "（无明确用户反馈记录，保留为测试集）",
+    "feedback_signal": "无信号"
+  },
+  {
+    "id": "huaibei-xingya-pod-v1",
+    "project_name": "淮北星芽-POD产业OPC集群",
+    "domain": "跨境电商/AI工具/SaaS",
+    "quality_score": 0.52,
+    "quality_dimensions": {
+      "claim_validation": 0.4,
+      "engineering_migration_gap": 0.3,
+      "per_person_assessment": 0.3,
+      "independent_competitor": 0.6,
+      "supplier_level_analysis": 0.2,
+      "team_gap_precision": 0.35,
+      "quantitative_score": 0.55,
+      "priority_levels": 0.4,
+      "overview_page": 0.7,
+      "independent_analysis": 0.65
+    },
+    "user_feedback": "（历史报告，无直接用户反馈）",
+    "feedback_signal": "无信号",
+    "notes": "SaaS/AI应用层项目，非硬科技，核心技能(claim验证/供应链)部分维度天然不适用"
+  }
+]
