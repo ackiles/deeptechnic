@@ -34,3 +34,6 @@ reports/
 
 # Background checks (confidential)
 *背调报告.md
+
+# Internal design docs (keep local only)
+skillopt-integration/系统深度融合方案.md
