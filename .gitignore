@@ -28,3 +28,9 @@ dist/
 # Project specific
 skillopt-integration/outputs/
 skillopt-integration/configs/deep_tech_dd/default.yaml
+
+# Reports (sensitive investment analysis, keep local only)
+reports/
+
+# Background checks (confidential)
+*背调报告.md
