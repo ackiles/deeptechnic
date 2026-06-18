@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Check report against 10-item quality gate. Returns pass/fail per item."""
-import json, re, sys
+import json
+import os
+import re
+import sys
 
 CHECKLIST = [
     ("Claim验证完整性", "每个核心技术claim是否有独立物理定量验证"),

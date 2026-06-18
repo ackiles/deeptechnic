@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Validate SkillOpt training data integrity."""
-import json, os, sys
+import json
+import os
+import sys
 
 QUALITY_DIMS = [
     "claim_validation", "engineering_migration_gap", "per_person_assessment",
@@ -21,7 +23,7 @@ def validate_split(split_dir: str, split_name: str) -> list[str]:
     seen_ids = set()
     for i, item in enumerate(items):
         item_id = item.get("id", f"item_{i}")
-        
+
         # Check duplicate IDs
         if item_id in seen_ids:
             errors.append(f"{split_name}[{i}]: duplicate id '{item_id}'")

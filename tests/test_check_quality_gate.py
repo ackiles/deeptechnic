@@ -1,6 +1,9 @@
 """Tests for check_quality_gate.py"""
-import json, os, tempfile
-from scripts.check_quality_gate import check, CHECKLIST
+import json
+import os
+import tempfile
+
+from scripts.check_quality_gate import CHECKLIST, check
 
 
 def test_checklist_has_10_items():
@@ -17,27 +20,27 @@ def test_passes_good_report():
     # 技术分析报告
     ## 概述
     核心结论：本项目技术路线可行。
-    
+
     ## 物理验证
     根据物理公式计算：F = ma，实验数据支持。
-    
+
     ## 团队
     姓名：张三，背景：清华大学博士
-    
+
     ## 竞品
     BP遗漏了关键竞品分析，我们独立发现了3家竞品。
-    
+
     评分：3.5/5
-    
+
     ### 待验证问题
     P0: 核心指标是否达标
     P1: 供应链稳定性
-    
+
     ## 供应链
     供应商：中芯国际，产能：每月5000片
-    
+
     风险等级标记：✅ 通过  🟡 存疑  ❌ 不通过
-    
+
     独立分析：本报告基于独立工程验证。
     """
     with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False) as f:

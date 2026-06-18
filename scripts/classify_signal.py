@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Classify user utterance as quality signal. Zero-ops feedback extraction."""
-import json, re, sys
-from typing import Optional
+import json
+import re
+import sys
 
 SIGNAL_RULES = [
     # Pattern, dimension, direction, weight
@@ -53,7 +54,7 @@ def aggregate(signals_list: list) -> dict:
             dims[d]["score"] = max(0, min(1, dims[d]["score"] + delta))
             dims[d]["count"] += 1
             dims[d]["signals"].append(direction)
-    
+
     result = {}
     for d, v in dims.items():
         result[d] = {"score": round(v["score"], 3), "count": v["count"]}

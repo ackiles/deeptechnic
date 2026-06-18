@@ -1,6 +1,5 @@
 """Tests for classify_signal.py"""
-import json
-from scripts.classify_signal import classify, aggregate
+from scripts.classify_signal import aggregate, classify
 
 
 def test_classify_returns_dict():
